@@ -1,0 +1,16 @@
+.Todo {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .ButtonsContainer {
+    position: fixed;
+    margin-left: 280px; /* This pushes the buttons to the right */
+    display: flex;
+
+    gap: 5px;
+  }
+  

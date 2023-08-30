@@ -1,0 +1,98 @@
+/* TodoList.css */
+
+.TodoList {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    background-color: #dfdcdca8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .TodoList h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #121111;
+  }
+  
+  .NewTodoForm {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+    transform: translateX(5px);
+  }
+  
+  li input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  li button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  li button:hover {
+    background-color: #45a049;
+  }
+  
+  .Todo {
+    flex-grow: 1;
+    padding-left: 10px;
+    color: #333;
+  }
+  
+  .TodoButtons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .TodoButtons button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 3px 7px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .TodoButtons button.editButton {
+    background-color: #2196f3;
+  }
+  
+  .TodoButtons button:hover {
+    background-color: #e53935;
+  }
+  
